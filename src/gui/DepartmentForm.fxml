@@ -28,7 +28,6 @@
             <Label text="Name" GridPane.rowIndex="1" />
             <TextField fx:id="txtId" editable="false" prefHeight="28.0" prefWidth="260.0" GridPane.columnIndex="1" />
             <TextField fx:id="txtName" prefHeight="28.0" prefWidth="260.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <Label fx:id="labelErrorName" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="1" />
             <HBox prefHeight="100.0" prefWidth="200.0" spacing="5.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <children>
                   <Button fx:id="btSave" mnemonicParsing="false" onAction="#onBtSaveAction" prefHeight="27.0" prefWidth="50.0" text="Save">
@@ -43,6 +42,7 @@
                   </Button>
                </children>
             </HBox>
+            <Label fx:id="labelErrorName" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="1" />
          </children>
       </GridPane>
    </children>
